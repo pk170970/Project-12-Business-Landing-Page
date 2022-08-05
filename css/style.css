@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --para-color: #636a6a;
+}
+
+*,
+*::before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #FBFBFB;
+    overflow-x: hidden;
+}
+
+.btn {
+
+    background: #8BB7A2;
+    width: 185px;
+    height: 60px;
+    color: #fff;
+    font-size: 1.1em;
+    border: none;
+    font-weight: bolder;
+
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* img:not(.hero-section>img,nav>img){
+    display: none;
+} */
+
+
+/* -----------------------------------------------Navigation Section-------------------------- */
+
+nav {
+    background-color: #636C79;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 15vh;
+}
+
+nav>img {
+    width: 9vw;
+    height: 7vh;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list li {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 18%;
+    margin-top: -7%;
+    color: #D8DADD;
+    white-space: nowrap;
+}
+
+.list li:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.btn1 {
+    border: 0.5px solid #948d8d;
+    width: 163px;
+    height: 43px;
+    font-size: 1em;
+    background: transparent;
+    color: #fff;
+    margin-top: 1.5%;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* --------------------------------------------Hero section---------------------------- */
+
+.hero-section {
+    display: flex;
+    background-color: #636C79;
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero-section>img {
+    width: 38vw;
+    height: 76vh;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.hero-section-content {
+    display: flex;
+    flex-direction: column;
+    width: 43vw;
+    text-align: left;
+    margin-left: 5%;
+    padding: 5em 3em;
+}
+
+.heading {
+    color: #fff;
+    font-size: 4em;
+}
+
+.para {
+    color: var(--para-color);
+    margin-top: 2%;
+    font-size: 1.2em;
+    line-height: 2;
+    margin-bottom: 4%;
+}
+
+.email-container {
+    display: flex;
+    position: relative;
+}
+
+.email-container input {
+    width: 37vw;
+    height: 9vh;
+    font-size: 1.1em;
+    padding-left: 12%;
+}
+
+.email-container img {
+    position: absolute;
+    width: 44px;
+    height: 40px;
+    top: 13px;
+    left: 15px;
+}
+
+.section1-button {
+    position: absolute;
+    left: 375px;
+    top: 3px;
+}
+
+/* -------------------------------------------Statistics section----------------------- */
+
+.statistics {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.statistics>h1 {
+    font-size: 2.5em;
+    padding: 0 28%;
+    text-align: center;
+    margin: 6% 0% 4% 0%;
+}
+
+.statistics-data-container {
+    display: flex;
+    justify-content: space-around;
+    width: 75vw;
+}
+
+
+.statistics-data h1 {
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+
+.statistics-data p {
+    color: var(--para-color);
+    font-weight: bold;
+}
+
+.statistics img {
+    margin-top: 5%;
+    width: 84vw;
+    height: 77vh;
+}
+
+/* -----------------------------------Features Section--------------------------------- */
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features>h1 {
+    font-size: 3em;
+    padding: 10% 33% 3% 33%;
+    text-align: center;
+}
+
+.feature-contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.feature-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1%;
+}
+
+.feature-heading {
+    font-size: 2.6em;
+    margin-top: 16%;
+    margin-left: 21%;
+    margin-right: 10%;
+}
+
+.feature-para {
+    color: var(--para-color);
+    margin-top: 2%;
+    margin-left: 21%;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-right: 10%;
+}
+
+.feature-contents img {
+    width: 39vw;
+    height: 82vh;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.feature-button {
+    margin-left: 21%;
+    margin-top: 6%;
+    margin-right: 10%;
+}
+
+
+/* ------------------------------------------Teams section------------------------------------ */
+
+.teams {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.teams-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.teams-content h1 {
+    margin-top: 3%;
+    margin-left: 21%;
+    margin-right: 20%;
+    font-size: 2.6em;
+}
+
+.teams-content p {
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-right: 20%;
+    color: var(--para-color);
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.team-members-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.team-members {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 85vh;
+    margin-left: 15%;
+}
+
+.team-members img {
+    width: 26vw;
+    height: 73vh;
+    padding: 5%;
+
+}
+
+.team-members h1 {
+    margin-left: 4%;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+.team-members p {
+    margin-left: 4%;
+    margin-right: 15%;
+    margin-top: 3%;
+    color: var(--para-color);
+}
+
+.team-button {
+    margin-top: -1%;
+}
+
+/* -----------------------------------------------Footer section--------------------------- */
+
+footer {
+    background: #10181D;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bottom>img {
+    width: 9vw;
+    height: 7vh;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 6%;
+    margin-top: 4%;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+    margin-left: 18px;
+}
+
+.line {
+    width: 83vw;
+    height: 2px;
+    background-color: #2A3237;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+.footer-contents {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+
+.footer-content {
+    padding: 5%;
+}
+
+.footer-content h4 {
+    color: #fff;
+    padding: 15% 0%;
+}
+
+.footer-content p {
+    color: var(--para-color);
+    padding: 5% 0%;
+}
+
+.footer-content p:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+/* ------------------------------------------------End----------------------------- */
