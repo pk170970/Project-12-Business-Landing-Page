@@ -1,7 +1,7 @@
 # ⭐ Project 12 : Business Landing Page⭐
 
 
-## 🔗Project 6 Link
+## 🔗Project 12 Link
 https://htmlcssproject12.netlify.app/
 
 This is a assignment given in **"JavaScript Full Stack Web Developer Bootcamp"** by **iNeuron**, built using **HTML5 and CSS3**.
